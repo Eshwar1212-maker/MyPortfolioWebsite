@@ -9,7 +9,7 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section id="home" className="md:items-center gap-16 md:h-full py-10">
       {/* MAIN TEXT */}
-      <div className="md:mt-32">
+      <div className="">
         <br />
         <br />
         <br />
