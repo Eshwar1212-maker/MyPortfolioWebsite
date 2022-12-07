@@ -15,29 +15,33 @@ import html from "../assets/html.png";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pt-10 pb-2 text-center items-center">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="gap-16 mt-32">
+      <div className="gap-16 mt-32 text-center items-center">
         <motion.div
-          className="md:w-1/3"
+          className="md:w-2/5 mx-auto text-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, y: -50 },
+            visible: { opacity: 1, y: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
-          </p>
-          <LineGradient width="w-1/3" />
+          <div>
+            <p className="font-playfair font-semibold text-4xl">
+              My <span className="text-red">Skills</span>
+            </p>
+            <div className="flex justify-center mt-5">
+              <LineGradient width="w-1/3" />
+            </div>
+          </div>
         </motion.div>
       </div>
       {/* SKILLS */}
       <div>
-        <div id="skills" className="w-full p-2 text-white py-[90px]">
+        <div id="skills" className="w-full p-2 text-white py-[10px]">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">

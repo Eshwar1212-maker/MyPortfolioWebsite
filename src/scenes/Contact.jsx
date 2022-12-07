@@ -10,7 +10,7 @@ function copy() {
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact py-48">
+    <section id="contact" className="py-48 text-center items-center">
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -21,30 +21,19 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
+        className="flex w-full justify-center text-center"
       >
-        <div>
+        <div className="text-center items-center">
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-yellow">CONTACT ME</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex my-5">
             <LineGradient width="w-1/2" />
           </div>
         </div>
       </motion.div>
       {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-          className="basis-1/2 flex justify-center"
-        ></motion.div>
+      <div className="md:flex md:justify-center gap-16 mt-5 items-center text-center">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -54,13 +43,13 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="basis-1/2 mt-10 md:mt-0"
+          className="mt-10 md:mt-0"
         >
           <div
-            className="py-[60px] w-full lg:h-screen p-2 m-auto text-white"
+            className="py-[60px] w-full lg:h-screen p-2 m-auto text-white items-center text-center"
             id="contact"
           >
-            <div className="flex-col text-center items-center max-w-[1000px] m-auto flex justify-center gap-11">
+            <div className="flex-col text-center items-center max-w-[1000px] m-auto flex justify-center gap-11 ">
               <h1 className="text-gray-400 font-bold">
                 I am very active on my Linkedin and Email, feel free to get in
                 touch!

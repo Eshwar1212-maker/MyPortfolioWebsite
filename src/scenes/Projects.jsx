@@ -66,12 +66,8 @@ const Projects = () => {
             <LineGradient width="w-1/3" />
           </div>
         </div>
-        <p className="mt-10 mb-7">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at.
-        </p>
       </motion.div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-6">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           initial="hidden"
