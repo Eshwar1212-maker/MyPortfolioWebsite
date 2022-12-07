@@ -95,13 +95,13 @@ const Projects = () => {
             demo="https://github.com/Eshwar1212-maker/Basketba-lFit"
           />
           <Project
-            y="Code"
             title="FamilyGram Social Media App"
             image={secondProject}
             text="Created a full stack social media website with React JS,
             Tailwind CSS, and Firebase. Used firebase’s google authentication for ease to use SDK’s
             and ready-make UI libraries to authenticate users."
             live="https://fsgvfsgsgbgffa.web.app/"
+            x="Demo"
           />
           <Project
             x="Demo"
