@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import firstProject from "../assets/projectOne.png";
 import secondProject from "../assets/projectTwo.png";
 import thirdProject from "../assets/projectThree.jpg";
-import fourthProject from "../assets/projectFour.png";
+import fourthProject from "../assets/projectFourr.png";
 
 const container = {
   hidden: {},
@@ -115,7 +115,7 @@ const Projects = () => {
             demo="https://github.com/Eshwar1212-maker/BreakingBad-API"
           />
           <Project
-            title="Multiyplayer Snowball Game Coming Soon"
+            title="ExpressPedia Social Media App coming soon"
             image={fourthProject}
             text=""
             live=""
