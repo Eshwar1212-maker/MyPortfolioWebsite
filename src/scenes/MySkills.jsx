@@ -44,7 +44,7 @@ const MySkills = () => {
         <div id="skills" className="w-full p-2 text-white py-[10px]">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={html} width="64px" height="64px" alt="/" />
@@ -54,7 +54,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Css} width="64px" height="64px" alt="/" />
@@ -64,7 +64,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Javascript} width="64px" height="64px" alt="/" />
@@ -74,7 +74,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={ReactIMG} width="64px" height="64px" alt="/" />
@@ -84,7 +84,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Tailwind} width="64px" height="64px" alt="/" />
@@ -94,7 +94,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Firebase} width="64px" height="64px" alt="/" />
@@ -104,7 +104,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Github} width="64px" height="64px" alt="/" />
@@ -114,7 +114,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Nextjs} width="64px" height="64px" alt="/" />
@@ -124,7 +124,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Java} width="64px" height="64px" alt="/" />
@@ -134,7 +134,7 @@ const MySkills = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
                     <img src={Node} width="64px" height="64px" alt="/" />
