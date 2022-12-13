@@ -117,8 +117,9 @@ const Projects = () => {
           <Project
             title="ExpressPedia Social Media App coming soon"
             image={fourthProject}
-            text=""
-            live=""
+            text="Full Stack social medial application using Express and Mongo DB for the backend, and React js for the front end."
+            demo="https://github.com/Eshwar1212-maker/MERN-Social-Media-App"
+            y="Code"
           />
           <div
             className="hidden md:flex justify-center text-center items-center p-10 bg-slate-600 max-[400px]
